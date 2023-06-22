@@ -1,0 +1,121 @@
+
+body{
+     height: 100vh;
+     background: linear-gradient(
+         160deg,
+        #eca752,
+        #a1f57f
+      );
+    }
+
+.container {
+    border: 2px solid wheat;
+    width: 350px;
+    margin: 40px 400px;
+    padding: 70px 180px 100px 60px;
+}
+
+#nav {
+    font-size: 20px;
+    width: 430px;
+    position: absolute;
+    background-color: #f4eded;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+#new {
+    color: #ffffff;
+    height: 15px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 10px 20px;
+
+}
+
+#add{
+    background-color: rgb(207, 47, 181);
+    height: 45px;
+    width: 65px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 10px 20px;
+    margin-left: 16px;
+
+}
+
+#nav input{
+    width: 70%;
+    height: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #060606;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#list{
+    background-color: #ffffff;
+    padding: 28px 23px;
+    margin-top: 160px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 430px;
+    position: relative;
+}
+
+#one{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task{
+    background-color: #ffffff;
+    height: 30px;
+    padding: 2px 4px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+  
+}
+
+.task button{
+    background-color: rgb(207, 47, 181);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #050404;
+    margin-bottom: 7px;
+
+}
+
+h5{
+ font-size: 20px;
+ text-align: center;
+ padding-top: 20px;
+ margin-bottom: 0%;
+
+}
